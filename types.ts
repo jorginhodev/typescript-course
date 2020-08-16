@@ -49,3 +49,12 @@ let cart: object;
 cart = {
   key: "foo",
 };
+
+// Type inference
+let message2 = "mensagem definida como string";
+// message2 = 2 - dá erro
+message2 = "string nova";
+
+window.addEventListener("click", (e) => {
+  console.log(e.target);
+});
